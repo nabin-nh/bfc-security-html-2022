@@ -7,6 +7,9 @@
 node_modules/
 dist/
 assets/build/
+style.css
+*.map
+mix-manifest.json
 
 # Compiled Java class files
 *.class

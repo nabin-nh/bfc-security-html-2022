@@ -1,0 +1,40 @@
+// Proxima Nova
+@import url("https://use.typekit.net/sea8jxy.css");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('#{$fontDir}/HelveticaNeue-Medium.woff2') format('woff2'),
+        url('#{$fontDir}/HelveticaNeue-Medium.woff') format('woff'),
+        url('#{$fontDir}/HelveticaNeue-Medium.ttf') format('truetype'),
+        url('#{$fontDir}/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('#{$fontDir}/HelveticaNeue-Bold.woff2') format('woff2'),
+        url('#{$fontDir}/HelveticaNeue-Bold.woff') format('woff'),
+        url('#{$fontDir}/HelveticaNeue-Bold.ttf') format('truetype'),
+        url('#{$fontDir}/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('#{$fontDir}/HelveticaNeue.woff2') format('woff2'),
+        url('#{$fontDir}/HelveticaNeue.woff') format('woff'),
+        url('#{$fontDir}/HelveticaNeue.ttf') format('truetype'),
+        url('#{$fontDir}/HelveticaNeue.svg#HelveticaNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
