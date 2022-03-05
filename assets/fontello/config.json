@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "8f2543a2a35243d5447ac2db357df69a",
+      "css": "search",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M999.9 818.4L713.7 534.2A375.8 375.8 0 1 0 528.7 713.1L817.3 999.7A197 197 0 0 0 999.9 818.4ZM375.1 621.7A248.9 248.9 0 1 1 625.7 372.8 250 250 0 0 1 375.1 621.7Z",
+        "width": 1000
+      },
+      "search": [
+        "search"
+      ]
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59393,
+      "src": "fontawesome"
+    }
+  ]
+}

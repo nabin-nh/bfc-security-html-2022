@@ -1,2 +1,8 @@
+//Config
 @import 'config/variables';
+@import 'config/bootstrap';
+@import 'config/mixins';
 @import 'config/fonts';
+
+//Fontello
+@import '../fontello/css/fontello';
