@@ -1,11 +1,14 @@
-//Config
+// Config
 @import 'config/variables';
 @import 'config/bootstrap';
 @import 'config/mixins';
 @import 'config/fonts';
 
-//Fontello
+// Fontello
 @import '../fontello/css/fontello';
 
-//Utilities
+// Layout
+@import 'layout/header';
+
+// Utilities
 @import 'utilities/flex';
