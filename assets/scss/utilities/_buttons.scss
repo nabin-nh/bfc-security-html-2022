@@ -1,0 +1,10 @@
+.btn {
+    &.custom {
+
+        &.blue {
+            background-color: $primary;
+            color: $secondary;
+        }
+
+    }
+}
