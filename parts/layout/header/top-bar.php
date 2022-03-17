@@ -1,6 +1,4 @@
 <div class="top-bar">
-    <div class="container">
-
         <nav class="links">
 
             <a id="phone-contact" href="tel:+441494565151">Call us: +44 (0) 1494 565 151</a>
@@ -10,7 +8,7 @@
             <form role="search" action="/" method="GET" class="form search-form d-flex">
                 <div class="input-group">
 
-                    <input type="text" name="s" class="form-control" value="" placeholder="Search our website..." required="" />
+                    <input type="text" name="s" class="form-control border-0" value="" placeholder="Search our website..." required="" />
 
                     <div class="input-group-append d-flex">
                         <button type="submit" class="border-0 px-2">
@@ -22,6 +20,4 @@
             </form>
 
         </nav>
-
-    </div>
 </div>
