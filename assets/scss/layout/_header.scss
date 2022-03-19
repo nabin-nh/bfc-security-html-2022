@@ -131,6 +131,22 @@
 
             &.dropdown {
 
+                @include breakpoint-up-xl {
+                    &:hover > .dropdown-menu,
+                    &:hover > .dropdown {
+                        display: block;
+                    }
+
+                    &:hover {
+                        .nav-link {
+                            i.icon-dropdown-arrow {
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+
+                }
+
                 .nav-link {
                     
                     i.icon-dropdown-arrow {
@@ -138,9 +154,17 @@
                         margin-left: 5.355px;
                         opacity: 0.6;
     
-                        @include breakpoint-between-xl-xxl {
-                            margin-left: 2.355px;
+                        @include breakpoint-up-xl {
+                            margin-left: 8.355px;
                             font-size: 8px;
+                        }
+
+                        @include breakpoint-up-1400 {
+                            margin-left: 6.355px;
+                        }
+
+                        @include breakpoint-up-xxl {
+                            margin-left: 5.355px;
                         }
     
                     }
