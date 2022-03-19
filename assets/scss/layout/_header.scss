@@ -5,28 +5,48 @@
     &::after {
         content: '';
         position: absolute;
-        right: 14px;
-        width: 37rem;
+        right: 4px;
+        width: 61rem;
         border-bottom: 1px solid rgba($cerulean-blue, 0.1);
+
+        @include breakpoint-up-lg {
+            right: 14px;
+            width: 37rem;
+        }
+
     }
 
     &.open::after {
-        width: 55rem;
+        width: 61rem;
+
+        @include breakpoint-up-lg {
+            width: 55rem;
+        }
+
     }
 
     .links {
         display: flex;
+        flex-direction: column;
         justify-content: flex-end;
         align-items: center;
 
+        @include breakpoint-up-lg {
+            flex-direction: row;
+        }
+
         a {
-            margin-right: 2.5rem;
+            margin: 0 0 0.5rem 0;
             text-decoration: none;
             font-family: 'proxima-nova', sans-serif;
             font-size: 1.125rem;
             font-weight: 500;
             color: $cerulean-blue;
             transition: opacity 0.3s ease-in-out;
+
+            @include breakpoint-up-lg {
+                margin: 0 2.5rem 0 0;
+            }
 
             &:hover{opacity: 0.8;}
         }
