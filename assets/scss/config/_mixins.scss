@@ -24,6 +24,12 @@
     }
 }
 
+@mixin breakpoint-up-1400 {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
+
 @mixin breakpoint-up-xxl {
     @include media-breakpoint-up(xxl) {
         @content;
@@ -56,6 +62,12 @@
 
 @mixin breakpoint-down-xxl {
     @include media-breakpoint-down(xxl) {
+        @content;
+    }
+}
+
+@mixin breakpoint-between-xl-xxl {
+    @include media-breakpoint-between(xl, xxl) {
         @content;
     }
 }
