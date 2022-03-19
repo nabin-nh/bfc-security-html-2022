@@ -87,6 +87,20 @@
       "css": "menu",
       "code": 61641,
       "src": "fontawesome"
+    },
+    {
+      "uid": "6e6eabe8a7591a92129bf743a27abea1",
+      "css": "dropdown-arrow",
+      "code": 59398,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M824.3 990.4L1591.1 240.4A29.8 29.8 0 0 0 1591.1 196.6L1391.1 9.1A34.9 34.9 0 0 0 1343.4 9.8L800.4 548.2 257.9 9.7A34.9 34.9 0 0 0 210.1 9.1L10.1 196.6A29.9 29.9 0 0 0 10.1 240.4L777 990.4A35 35 0 0 0 825.1 990.4Z",
+        "width": 1600
+      },
+      "search": [
+        "dropdown-arrow"
+      ]
     }
   ]
 }
