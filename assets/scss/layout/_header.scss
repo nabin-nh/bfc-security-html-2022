@@ -27,25 +27,31 @@
 
     .links {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         align-items: center;
 
         @include breakpoint-up-lg {
-            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
         }
 
         a {
-            margin: 0 0 0.5rem 0;
+            margin: 0.5rem;
             text-decoration: none;
             font-family: 'proxima-nova', sans-serif;
-            font-size: 1.125rem;
+            font-size: 0.75rem;
             font-weight: 500;
             color: $cerulean-blue;
             transition: opacity 0.3s ease-in-out;
 
+            @include breakpoint-up-sm {
+                font-size: 1rem;
+            }
+
             @include breakpoint-up-lg {
                 margin: 0 2.5rem 0 0;
+                font-size: 1.125rem;
             }
 
             &:hover{opacity: 0.8;}
@@ -54,6 +60,9 @@
         i {color: $cerulean-blue;}
 
         .search-form {
+            @include breakpoint-down-lg {
+                margin-bottom: 0.5rem;
+            }
 
             input {
                 background-color: $alabaster-white;
@@ -150,13 +159,12 @@
                 .nav-link {
                     
                     i.icon-dropdown-arrow {
-                        font-size: 8px;
+                        font-size: 0.5rem;
                         margin-left: 5.355px;
                         opacity: 0.6;
     
                         @include breakpoint-up-xl {
                             margin-left: 8.355px;
-                            font-size: 8px;
                         }
 
                         @include breakpoint-up-1400 {
@@ -187,16 +195,16 @@
             .nav-link {
                 color: rgba($black, 0.7);
                 text-transform: uppercase;
-                font-size: 16px;
+                font-size: 1rem;
                 display: flex;
                 align-items: center;
 
                 @include breakpoint-up-1400 {
-                    font-size: 18px;
+                    font-size: 1.125rem;
                 }
 
                 @include breakpoint-up-xxl {
-                    font-size: 21px;
+                    font-size: 1.313rem;
                 }
                 
             }
