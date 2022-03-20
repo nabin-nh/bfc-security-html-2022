@@ -13,7 +13,7 @@
                 <input type="text" name="s" class="search-form-wrapper form-control border-0" value="" placeholder="Search our website..." required="" />
         
                 <div class="input-group-append d-flex">
-                    <button type="submit" class="search-btn border-0 px-2" id="searchBarToggler">
+                    <button type="submit" class="search-btn border-0 p-2" id="searchBarToggler">
                         <i class="icon-search"></i>
                     </button>
                 </div>
