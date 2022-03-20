@@ -10,9 +10,12 @@
     </head>
     
     <body>
-        <header id="main-header">
-            <?php 
-                require_once ('./parts/layout/header/top-bar.php');
-                require_once ('./parts/layout/header/navigation.php');
-            ?>
-        </header>
+
+        <div class="d-flex flex-column justify-content-between min-vh-100">
+
+            <header id="main-header">
+                <?php 
+                    require_once ('./parts/layout/header/top-bar.php');
+                    require_once ('./parts/layout/header/navigation.php');
+                ?>
+            </header>
