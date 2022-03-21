@@ -4,12 +4,22 @@
 
         .inner {
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             flex-direction: column;
-            width: 78%;
+            width: 100%;
 
             #iso-logos {
-                margin-top: 5rem;
+                margin: 2rem 0;
+            }
+
+            @include breakpoint-up-md {
+                width: 78%;
+                align-items: flex-end;
+
+                #iso-logos {
+                    margin: 5rem 0 0;
+                }
+
             }
 
         }
@@ -17,6 +27,15 @@
     }
 
     #contact {
+
+        @include breakpoint-down-md {
+            address {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
 
         address p,a {
             color: rgba($white, 0.7);
@@ -29,8 +48,15 @@
         address a:hover {opacity: 0.5;}
 
         .social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-top: 2rem;
             transition: opacity 0.3s ease-in-out;
+
+            @include breakpoint-up-md {
+                display: block;
+            }
 
             a:hover {opacity: 0.7;}
         }
@@ -51,6 +77,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-direction: column;
+
+            @include breakpoint-up-md {
+                flex-direction: row;
+            }
 
             p,a {
                 color: rgba($white, 0.6);
@@ -59,6 +90,15 @@
                 text-decoration: none;
                 transition: opacity 0.3s ease-in-out;
                 margin-bottom: 0;
+            }
+
+            p:last-child {
+                margin-top: 1rem;
+
+                @include breakpoint-up-md {
+                    margin-top: 0;
+                }
+
             }
     
             a:hover{opacity: 0.4;}
