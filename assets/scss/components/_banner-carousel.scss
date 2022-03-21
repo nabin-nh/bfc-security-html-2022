@@ -1,0 +1,44 @@
+.banner-carousel {
+
+    .carousel-indicators {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        height: 100%;
+        margin: 0 2% 0 15%;
+        
+        [data-bs-target] {
+            opacity: 1;
+        }
+
+        .active {
+            background-color: $cerulean-blue;
+        }
+
+        button {
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 100%;
+        }
+    }
+
+    .image {
+        background-size: cover;
+        min-height: 17rem;
+        background-position: right;
+        
+        @include breakpoint-up-lg {
+            min-height: 22rem;
+        }
+
+        @include breakpoint-up-xxl {
+            min-height: 26rem;
+        }
+
+        @include breakpoint-up-1920 {
+            min-height: 33rem;
+        }
+
+    }
+
+}
