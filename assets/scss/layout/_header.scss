@@ -140,6 +140,22 @@
 
             &.dropdown {
 
+                .dropdown-menu {
+                    border: 0;
+                    border-radius: 0;
+                    box-shadow: 0px 2px 1px #00000029;
+
+                    .dropdown-item {
+                        color: rgba($black, 0.6);
+                        font-size: 1.125rem;
+                        font-weight: 700;
+
+                        &:active {background-color: $athens-grey;}
+
+                    }
+
+                }
+
                 @include breakpoint-up-xl {
                     &:hover > .dropdown-menu,
                     &:hover > .dropdown {
