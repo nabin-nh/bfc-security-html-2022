@@ -12,7 +12,7 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-8 col-xl-7">
                                 <div class="content">
                                     <h4>Global Fastener Distributor</h4>
 
@@ -40,7 +40,7 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-8 col-xl-7">
                                 <div class="content">
                                     <h4>You can trust our name and our products</h4>
 
@@ -66,7 +66,7 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-8 col-xl-7">
                                 <div class="content">
                                     <h4>No compromise on specification or quality</h4>
 
