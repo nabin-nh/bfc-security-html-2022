@@ -1,21 +1,4 @@
 .icon-info-row {
-    h2 {
-        font-weight: 700;
-        font-size: 1.5rem;
-        color: $cerulean-blue;
-        margin-bottom: 3rem;
-        text-align: center;
-
-        @include media-breakpoint-up(md) {
-            font-size: 2rem;
-        }
-
-        @include media-breakpoint-up(xl) {
-            font-size: 3rem;
-        }
-
-    }
-
     .icon-row {
 
         .icon-anchor {
@@ -103,5 +86,4 @@
         }
 
     }
-
 }

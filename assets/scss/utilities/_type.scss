@@ -1,0 +1,33 @@
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+        font-size: 2rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 3rem;
+    }
+
+    &.blue {
+        color: $cerulean-blue;
+    }
+
+    &.white {
+        color: $white;
+    }
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: $cod-grey;
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+    }
+
+}
