@@ -6,6 +6,7 @@
         require_once 'parts/flexible/featured-products.php';
         require_once 'parts/flexible/full-width-content.php';
         require_once 'parts/flexible/content-media.php';
+        require_once 'parts/forms/product-enquiry.php';
     ?>
 
 <?php require_once 'footer.php'; ?>
