@@ -8,7 +8,7 @@
 
                     <div class="d-flex justify-content-center">
                         <div class="thumbnail-wrapper">
-                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg')"></div>
+                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg');"></div>
                         </div>
                     </div>
 
@@ -24,7 +24,7 @@
 
                     <div class="d-flex justify-content-center">
                         <div class="thumbnail-wrapper">
-                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg')"></div>
+                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg');"></div>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@
 
                     <div class="d-flex justify-content-center">
                         <div class="thumbnail-wrapper">
-                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg')"></div>
+                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg');"></div>
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@
 
                     <div class="d-flex justify-content-center">
                         <div class="thumbnail-wrapper">
-                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg')"></div>
+                            <div class="thumbnail" style="background-image: url('/assets/img/content/sample-screw.jpg');"></div>
                         </div>
                     </div>
 

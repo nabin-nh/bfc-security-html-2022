@@ -1,0 +1,47 @@
+.content-media {
+
+    .content {
+
+        h2 {
+            text-align: start;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            color: $dove-grey;
+
+            @include media-breakpoint-up(md) {
+                font-size: 1.313rem;
+            }
+
+        }
+
+        .logos {
+            display: flex;
+            max-width: 10rem;
+
+            @include mobile-medium {
+                max-width: 13rem;
+            }
+
+            @include media-breakpoint-up(sm) {
+                max-width: none;
+            }
+
+        }
+
+    }
+
+    .media {
+
+        .media-image {
+            padding-bottom: 65%;
+            background-size: cover;
+            background-position: center center;
+        }
+
+    }
+
+}

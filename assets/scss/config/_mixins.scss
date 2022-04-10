@@ -1,5 +1,11 @@
 //Media Queries
 
+@mixin mobile-medium {
+    @media (min-width: 370px) {
+        @content;
+    }
+}
+
 @mixin breakpoint-up-sm {
     @include media-breakpoint-up(sm) {
         @content;
