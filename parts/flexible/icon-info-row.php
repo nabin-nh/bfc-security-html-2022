@@ -4,7 +4,7 @@
     <div class="icon-row">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-5 mb-lg-0">
 
                     <a href="#" class="icon-anchor">
                         <div class="icon">
@@ -36,7 +36,7 @@
                     
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-5 mb-lg-0">
 
                     <a href="#" class="icon-anchor">
                         <div class="icon">
@@ -68,7 +68,7 @@
                     
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-5 mb-lg-0">
 
                     <a href="#" class="icon-anchor">
                         <div class="icon">
