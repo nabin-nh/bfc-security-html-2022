@@ -16,7 +16,7 @@
             width: 1rem;
             border-radius: 100%;
 
-            @include breakpoint-up-md {
+            @include media-breakpoint-up(md) {
                 height: 1.5rem;
                 width: 1.5rem;
             }
@@ -29,11 +29,11 @@
         min-height: 17rem;
         background-position: right;
         
-        @include breakpoint-up-lg {min-height: 34rem;}
+        @include media-breakpoint-up(lg) {min-height: 34rem;}
 
-        @include breakpoint-up-xxl {min-height: 36rem;}
+        @include media-breakpoint-up(xxl) {min-height: 36rem;}
 
-        @include breakpoint-up-1920 {min-height: 37rem;}
+        @include breakpoint-up-num(1920px) {min-height: 37rem;}
 
     }
 

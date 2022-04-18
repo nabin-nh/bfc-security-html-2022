@@ -22,7 +22,7 @@
             display: flex;
             max-width: 10rem;
 
-            @include mobile-medium {
+            @include breakpoint-up-num(370px) {
                 max-width: 13rem;
             }
 

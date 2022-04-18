@@ -9,7 +9,7 @@
         width: 61rem;
         border-bottom: 1px solid rgba($cerulean-blue, 0.1);
 
-        @include breakpoint-up-lg {
+        @include media-breakpoint-up(lg) {
             right: 14px;
             width: 37rem;
         }
@@ -19,7 +19,7 @@
     &.open::after {
         width: 61rem;
 
-        @include breakpoint-up-lg {
+        @include media-breakpoint-up(lg) {
             width: 55rem;
         }
 
@@ -31,7 +31,7 @@
         justify-content: space-evenly;
         align-items: center;
 
-        @include breakpoint-up-lg {
+        @include media-breakpoint-up(lg) {
             flex-wrap: nowrap;
             justify-content: flex-end;
         }
@@ -45,11 +45,11 @@
             color: $cerulean-blue;
             transition: opacity 0.3s ease-in-out;
 
-            @include breakpoint-up-sm {
+            @include media-breakpoint-up(sm) {
                 font-size: 1rem;
             }
 
-            @include breakpoint-up-lg {
+            @include media-breakpoint-up(lg) {
                 margin: 0 2.5rem 0 0;
                 font-size: 1.125rem;
             }
@@ -60,7 +60,7 @@
         i {color: $cerulean-blue;}
 
         .search-form {
-            @include breakpoint-down-lg {
+            @include media-breakpoint-down(lg) {
                 margin-bottom: 0.5rem;
             }
 
@@ -110,14 +110,14 @@
     .navbar-brand {
         margin-left: 2rem;
 
-        @include breakpoint-between-xl-xxl {
+        @include media-breakpoint-between(xl, xxl) {
             margin-left: 0;
         }
 
         .logo {
             width: 75%;
 
-            @include breakpoint-up-xxl {
+            @include media-breakpoint-up(xxl) {
                 width: 100%;
             }
 
@@ -130,11 +130,11 @@
         li {
             margin: 0.5rem;
 
-            @include breakpoint-up-xl {
+            @include media-breakpoint-up(xl) {
                 margin: 0;
             }
 
-            @include breakpoint-up-1400 {
+            @include breakpoint-up-num(1400px) {
                 margin: 0.4rem;
             }
 
@@ -156,7 +156,7 @@
 
                 }
 
-                @include breakpoint-up-xl {
+                @include media-breakpoint-up(xl) {
                     &:hover > .dropdown-menu,
                     &:hover > .dropdown {
                         display: block;
@@ -179,15 +179,15 @@
                         margin-left: 5.355px;
                         opacity: 0.6;
     
-                        @include breakpoint-up-xl {
+                        @include media-breakpoint-up(xl) {
                             margin-left: 8.355px;
                         }
 
-                        @include breakpoint-up-1400 {
+                        @include breakpoint-up-num(1400px) {
                             margin-left: 6.355px;
                         }
 
-                        @include breakpoint-up-xxl {
+                        @include media-breakpoint-up(xxl) {
                             margin-left: 8.355px;
                         }
     
@@ -197,7 +197,7 @@
                         i.icon-dropdown-arrow {
                             transform: rotate(180deg);
 
-                            @include breakpoint-between-xl-xxl {
+                            @include media-breakpoint-between(xl, xxl) {
                                 margin-left: 6.355px;
                             }
 
@@ -216,11 +216,11 @@
                 align-items: center;
                 transition: opacity 0.3s ease-in-out;
 
-                @include breakpoint-up-1400 {
+                @include breakpoint-up-num(1400px) {
                     font-size: 1.125rem;
                 }
 
-                @include breakpoint-up-xxl {
+                @include media-breakpoint-up(xxl) {
                     font-size: 1.313rem;
                 }
 

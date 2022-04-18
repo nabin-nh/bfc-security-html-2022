@@ -12,7 +12,7 @@
                 margin: 2rem 0;
             }
 
-            @include breakpoint-up-md {
+            @include media-breakpoint-up(md) {
                 width: 78%;
                 align-items: flex-end;
 
@@ -28,7 +28,7 @@
 
     #contact {
 
-        @include breakpoint-down-md {
+        @include media-breakpoint-down(md) {
             address {
                 display: flex;
                 flex-direction: column;
@@ -54,7 +54,7 @@
             margin-top: 2rem;
             transition: opacity 0.3s ease-in-out;
 
-            @include breakpoint-up-md {
+            @include media-breakpoint-up(md) {
                 display: block;
             }
 
@@ -68,7 +68,7 @@
         padding: 2rem 0;
 
         .container {
-            @include breakpoint-up-xxl {
+            @include media-breakpoint-up(xxl) {
                 max-width: 1595px;
             }
         }
@@ -79,7 +79,7 @@
             justify-content: space-between;
             flex-direction: column;
 
-            @include breakpoint-up-md {
+            @include media-breakpoint-up(md) {
                 flex-direction: row;
             }
 
@@ -95,7 +95,7 @@
             p:last-child {
                 margin-top: 1rem;
 
-                @include breakpoint-up-md {
+                @include media-breakpoint-up(md) {
                     margin-top: 0;
                 }
 
