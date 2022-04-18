@@ -29,11 +29,7 @@
         min-height: 17rem;
         background-position: right;
         
-        @include media-breakpoint-up(lg) {min-height: 34rem;}
-
-        @include media-breakpoint-up(xxl) {min-height: 36rem;}
-
-        @include breakpoint-up-num(1920px) {min-height: 37rem;}
+        @include media-breakpoint-up(xxl) {min-height: 29rem;}
 
     }
 
