@@ -49,6 +49,10 @@
                                 <textarea id="message" name="message" placeholder="Type your message here...:" class="form-control form-control-lg no-resize" rows="6"></textarea>
                             </div>
 
+                            <p>By providing us with your email, you agree to the terms of our <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.</p>
+
+                            <p>By clicking SEND ENQUIRY you are confirming we are able to contact you.</p>
+
                             <div class="button-group col-12 col-lg-8 col-xl-12">
                                 <button type="submit" class="btn blue custom text-uppercase my-xl-4">Send Enquiry</button>
                             </div>
