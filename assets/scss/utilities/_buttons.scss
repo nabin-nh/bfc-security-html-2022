@@ -4,7 +4,7 @@
         font-family: 'proxima-nova', sans-serif;
         font-weight: 800;
         border-radius: 0;
-        transform: opacity 0.3s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
 
         @include media-breakpoint-up(md) {font-size: 1.125rem;}
 
